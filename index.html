@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Fundamentals P3</title>
+</head>
+<body>
+    <script>
+        // JS
+        function add7 (n) {
+            return n + 7;
+        }
+
+        function multiply (l, m) {
+            return l * m;
+        }
+
+        function capitalize (cap) {
+            // make first letter uppercase
+            return cap.charAt(0).toUpperCase() + cap.slice(1);
+        }
+
+        function lastLetter (last) {
+            // return only last letter of string
+            return last.slice(-1);
+        }
+
+        console.log("Add 7 equals: " + add7(1));
+
+        console.log("multiply equals: " + multiply(3,4));
+
+        console.log("capitalize: " + capitalize("wanD"));
+
+        console.log("show last: " + lastLetter("wicked"));
+    </script>
+</body>
+</html>
